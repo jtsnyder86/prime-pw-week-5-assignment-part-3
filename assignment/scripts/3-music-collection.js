@@ -30,6 +30,23 @@ function showCollection (array) {
         console.log(array[index]);
     }
     
-}
+}   //Add a function named showCollection. This function should:
+    //Take in an array parameter. (This allows it to be reused to show any collection, like the results from the find or search.)
+    //Console.log the number of items in the array.
+    //Loop over the array and console.log each album's information formatted like: TITLE by ARTIST, published in YEAR.
+    
 
-console.log(showCollection(collection));
+console.log(showCollection(collection));  //Test the showCollection function.
+
+function findByArtist(artist) {
+    let musician = [];
+    for (let album of collection) {
+        if (album.artist == artist){
+            musician.push (album);
+        }
+        else {
+            return console.log('Results', musician);
+        }
+    }
+    
+}
