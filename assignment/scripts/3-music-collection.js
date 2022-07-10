@@ -12,3 +12,9 @@ function addToCollection (title, artist, yearPublished) {
     //Add the new object to the end of the collection array
     //Return the newly created object
 
+addToCollection ( 'Quantity is Job 1', 'Five Iron Frenzy', '1998');
+addToCollection ( 'Electric Boogaloo', 'Five Iron Frenzy 2', '2001');
+addToCollection ( 'Whispers', 'Passenger', '2014');
+addToCollection ( 'Onwards and Sidways', 'Joshua Radin', '2015');
+addToCollection ( 'Blurryface', 'Twenty One Pilots', '2015');
+addToCollection ( 'Leavetaking', 'Peter Bradley Adams', '2008');
